@@ -69,4 +69,34 @@
         width: 7px; 
         height: 7px;
     }
+
+    /* first section */
+    .whiteboard{
+        margin-top: 3vh;
+        flex-direction: column;
+        padding: 0 24px;
+        gap: 15px;
+    }
+
+    .blue_img{
+        width: 90%;
+        height: 200px;
+    }
+
+    .whiteboard_texts{
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .whiteboard_texts h1{
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .whiteboard_texts p{
+        font-size: 13px;
+        line-height: 23px;
+        padding: 0 24px 10px 24px;
+    }
 }
