@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* header */
+
+.hidden{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color:rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 44px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo{
+    width: 170px;
+    height: 27px;
+    margin-right: 6rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+    color: #4F9CF9;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.nav-link::after{
+    background-image: url(./imgs/arrow_down.png);
+    background-position: center;
+    width: 13px; 
+    background-size: cover;
+    height: 13px;
+    display: inline-block;
+    content: "";
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    color: dodgerblue;
+}
+
+.hamburger{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #4F9CF9;
+}
+/* gilakebi */
+.buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background: #4F9CF9;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+}
+
+.arr::after{
+    background-image: url(./imgs/arrow_left.png);
+    background-position: center;
+    width: 10px; 
+    background-size: cover;
+    height: 10px;
+    display: inline-block;
+    content: "";
+    margin-left: 5px;
+}
+
+.btn:hover{
+    transition: 0.7s;
+    background: #FFE492;
+    color: #043873;
+}
