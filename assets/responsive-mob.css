@@ -99,4 +99,54 @@
     line-height: 23px;
     padding: 0 24px 10px 24px;
 }
+
+/* danarcheni seqciebi */
+
+.section{
+    margin-top: 8vh;
+    flex-direction: column;
+    padding: 0 24px;
+    gap: 15px;
+}
+
+.background{
+    background-position: 0 50%;
+}
+
+.section_texts{
+    width: 100%;
+    text-align: center;
+}
+
+.heading{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.yellow_line{
+    height: 15px;
+}
+
+.paragraph{
+    padding: 10px 24px 20px 24px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+}
+
+.img{
+    width: 80%;
+}
+
+.responsive{
+    display: flex;
+    flex-direction: column-reverse;
+}
 }

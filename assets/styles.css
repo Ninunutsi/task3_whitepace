@@ -162,3 +162,63 @@ a{
     color: #4F9CF9;
     padding-bottom: 35px;
 }
+
+/* მსგავსი სექციები */
+.section{
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 10vw;
+}
+
+.background{
+    background-image: url(./imgs/BACKGROUND2.png);
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    background-size: 280px 280px;
+}
+
+.section_texts{
+    width: 50%;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.span{
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    width: 50%;
+}
+
+.yellow_line{
+    position: absolute;
+    width: 110%;
+    height: 25px;
+    z-index: -1;
+    bottom: -3px;
+    left: 0;
+}
+
+.paragraph{
+    padding: 20px 0 40px 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+}
+
+.img{
+    width: 46%;
+}
