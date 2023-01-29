@@ -479,3 +479,141 @@ a{
     transform: scale(0.7);
     margin: -5vh;
 }
+
+/* footer */
+
+.footer{
+    background-color: #043873;
+    padding: 120px 70px 20px 70px;
+    margin-top: 10vh;
+    color: white;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.logo_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 18%;
+}
+
+.logo_txt img{
+    width: 130px;
+}
+
+.logo_txt p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #F7F7EE;
+}
+
+.footer_nav-menu{
+    display: flex;
+    gap: 65px;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_nav h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    padding-bottom: 13px;
+}
+
+.footer_nav a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.footer_nav a:hover{
+    color: #FFE492;
+    transition: 1s;
+}
+
+.footer_try_btn{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 15px;
+}
+
+.footer_try_btn h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer_try_btn p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer_try_btn button{
+    width: 60%;
+}
+
+.line{
+    border: 1px solid #2E4E73;
+    margin-top: 5vh;
+}
+
+.footer_info{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.info_content{
+    display: flex;
+    gap: 40px;
+}
+
+.info_content span{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.english{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.english img{
+    width: 10px;
+}
+
+.footer_logos{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_logos img{
+    transform: scale(0.7);
+    cursor: pointer;
+}
