@@ -3,7 +3,7 @@ Team 6
 
 Nino Khurtsidze(leader)
 Nika Mikeladze
-Nino Jajanidz
+Nino Jajanidze
 
 Website for Whitepace
 Styles
