@@ -221,6 +221,101 @@ height: 11px;
 margin-right: 7px;
 }
 
+
 /* first blue div */
+
+.blue_div1{
+    margin-top: 10vh;
+    padding: 70px 24px;
+    background-size: 190px 410px;
+}
+
+.blue_div1 h1, .blue_div1 span{
+    color: white;
+}
+
+/* sponsors */
+.sponsors{
+    margin-top: 10vh;
+    gap: 30px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logos img{
+    transform: scale(0.5);
+}
+
+/* blue div2 */
+
+.blue_div2{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 24px;
+    color: white;
+}
+
+.blue_div2 img{
+    width: 90%;
+}
+.texts{
+    width: 100%;
+    text-align: center;
+}
+
+/* reviuebi */
+/* users review */
+.users{
+    margin-top: 10vh;
+    gap: 20px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 44px;
+    margin-top: 3vh;
+}
+
+.user{
+    padding: 20px 15px;
+}
+
+.user img{
+    width: 50px;
+    height: 50px;
+}
+
+.user p{
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.user_grade img{
+    height: 10px;
+}
+
+.user_grade h5{
+    font-size: 14px;
+}
+
+.user span{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.arr_imgs img{
+    transform: scale(0.5);
+}
 
 }
