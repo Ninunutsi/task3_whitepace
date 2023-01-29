@@ -265,4 +265,82 @@
 .user span{
     font-size: 13px;
 }
+
+/* footer */
+.footer{
+    padding: 80px 50px 20px 50px;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.logo_txt{
+    width: 100%;
+}
+
+.footer_nav-menu{
+    display: flex;
+    gap: 65px;
+}
+
+.footer_try_btn{
+    width: 100%;
+    gap: 10px;
+}
+
+.footer_try_btn p{
+    line-height: 24px;
+}
+
+.footer_try_btn button{
+    width: 20%;
+}
+
+.footer_info{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_content{
+    display: flex;
+    gap: 40px;
+}
+
+.info_content span{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.info_content img{
+    width: 100px;
+}
+
+.english{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.english img{
+    width: 10px;
+}
+
+.footer_logos{
+    display: flex;
+    gap: 30px;
+}
+
+.footer_logos img{
+    transform: scale(0.7);
+    cursor: pointer;
+}
 }
